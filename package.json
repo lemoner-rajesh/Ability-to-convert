@@ -17,6 +17,7 @@
   "dependencies": {
     "gatsby": "^5.8.1",
     "gatsby-plugin-google-gtag": "^5.8.0",
+    "parse-server": "^6.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }
