@@ -22,7 +22,11 @@ const IndexPage = () => {
     setPdata(rec[0].get('Description'))
     
     }
-  funLib();
+
+    useEffect(()=>{
+      funLib();
+    },[])
+  
 
     // var Pages = Parse.Object.extend("Pages");
     // var query = new Parse.Query(Pages);
@@ -41,8 +45,9 @@ const IndexPage = () => {
 
   return (
     <div>
-      
-      <div dangerouslySetInnerHTML={{__html:pData}} />
+     <div>asdf</div> 
+     
+      {/* <div dangerouslySetInnerHTML={{__html:pData}} /> */}
     </div>
     
   )
