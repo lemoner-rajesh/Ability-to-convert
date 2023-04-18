@@ -45,9 +45,9 @@ const IndexPage = () => {
 
   return (
     <div>
-     <div>asdf</div> 
+     {/* <div>asdf</div>  */}
      
-      {/* <div dangerouslySetInnerHTML={{__html:pData}} /> */}
+      <div dangerouslySetInnerHTML={{__html:pData}} />
     </div>
     
   )
